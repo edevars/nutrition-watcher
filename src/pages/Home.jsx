@@ -3,6 +3,7 @@ import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
 import HowInfo from '../components/HowInfo';
 import Quote from '../components/Quote';
+import CallToAction from '../components/CallToAction';
 
 const Home = () => (
   <>
@@ -11,6 +12,7 @@ const Home = () => (
     <main>
       <HowInfo />
       <Quote />
+      <CallToAction />
     </main>
   </>
 );

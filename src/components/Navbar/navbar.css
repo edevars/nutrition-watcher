@@ -20,13 +20,3 @@
     height: fit-content;
 }
 
-.login-button {
-  height: fit-content;
-  border-radius: 0.5rem;
-  background: #2dbdbd;
-  color: #fff;
-  padding: 1.2rem 2.4rem;
-  border: none;
-  font-weight: bolder;
-  text-transform: uppercase;
-}

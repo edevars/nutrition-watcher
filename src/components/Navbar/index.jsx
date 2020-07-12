@@ -7,7 +7,7 @@ const Navbar = () => (
       <li>Home</li>
       <li>How works?</li>
       <li>About</li>
-      <button type="button" className="login-button">
+      <button type="button" className="button">
         Iniciar sesión
       </button>
     </ul>
