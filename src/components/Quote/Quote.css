@@ -1,0 +1,22 @@
+.quote-container {
+  padding: 10rem 46rem 8rem;
+  background: linear-gradient(
+    90deg,
+    rgba(54, 223, 204, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  max-width: 100%;
+  color: hsl(0, 0%, 29%);
+  margin-bottom: 20rem;
+}
+
+.quote-text {
+  font-size: 6rem;
+  font-weight: bold;
+}
+
+.author{
+    font-size: 3rem;
+    margin-left: 6rem;
+    font-style: italic;
+}

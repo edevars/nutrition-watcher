@@ -2,12 +2,16 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
 import HowInfo from '../components/HowInfo';
+import Quote from '../components/Quote';
 
 const Home = () => (
   <>
     <Navbar />
     <Hero />
-    <HowInfo />
+    <main>
+      <HowInfo />
+      <Quote />
+    </main>
   </>
 );
 
