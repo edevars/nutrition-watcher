@@ -1,4 +1,5 @@
 import React from 'react';
+import { Element } from 'react-scroll';
 import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
 import HowInfo from '../components/HowInfo';
@@ -11,11 +12,17 @@ const Home = () => (
     <Navbar />
     <Hero />
     <main>
-      <HowInfo />
+      <Element name="how-works">
+        <HowInfo />
+      </Element>
       <Quote />
-      <CallToAction />
+      <Element name="start-now">
+        <CallToAction />
+      </Element>
     </main>
-    <Footer />
+    <Element name="contact">
+      <Footer />
+    </Element>
   </>
 );
 

@@ -2,6 +2,7 @@
   display: grid;
   height: 100vh;
   grid-template-columns: 40% 1fr;
+  margin-bottom: 10rem;
 }
 
 .hero-grid .title-container {

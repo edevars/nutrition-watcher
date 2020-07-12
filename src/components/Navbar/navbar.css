@@ -4,6 +4,10 @@
   display: flex;
   justify-content: flex-end;
   margin: 1.4rem 0px;
+  position: sticky;
+  top:0;
+  z-index: 9999;
+  background: white;
 }
 
 .menu {
@@ -18,5 +22,10 @@
 
 .menu li{
     height: fit-content;
+}
+
+.link:hover {
+  color: black;
+  cursor: pointer;
 }
 
