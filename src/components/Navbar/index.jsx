@@ -5,7 +5,7 @@ const Navbar = () => (
   <nav className="home-navbar">
     <ul className="menu">
       <li>Home</li>
-      <li>Benefits</li>
+      <li>How works?</li>
       <li>About</li>
       <button type="button" className="login-button">
         Iniciar sesión
