@@ -1,0 +1,54 @@
+footer {
+  background-color: #363636;
+  margin-top: 20rem;
+  color: white;
+}
+
+footer h4 {
+  font-size: 21px;
+  text-align: center;
+}
+
+.page-info {
+  display: flex;
+  justify-content: space-evenly;
+  flex-flow: row wrap;
+  padding: 5rem 5rem 10rem;
+}
+
+.info-item {
+  font-size: 1.6rem;
+  width: 320px;
+}
+
+.info-item i {
+  font-size: 4rem;
+  margin-right: 1rem;
+}
+
+.search-footer{
+    padding: 0.8rem 1.6rem;
+    border-radius: 1rem;    
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  font-size: 1.4rem;
+  font-weight: bold;
+  padding: 1rem 0px;
+  background: linear-gradient(
+    90deg,
+    rgba(54, 223, 204, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  color: #363636;
+}
+
+
