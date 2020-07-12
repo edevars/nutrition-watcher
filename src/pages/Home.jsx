@@ -1,10 +1,11 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
+import Hero from '../components/Hero';
 
 const Home = () => (
   <>
     <Navbar />
-    <h1>Aquí debe ir el hero, I guess...</h1>
+    <Hero />
   </>
 );
 
