@@ -1,14 +1,23 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import './StepItem.css';
 
-const StepItem = () => (
+const StepItem = ({ children, title, description }) => (
   <div className="step-item">
-    <h4>1. Take your weight</h4>
+    <h4>{title}</h4>
     <div>
-      <i className="las la-weight" />
+      {children}
     </div>
-    <p className="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim non ut inventore aperiam quos, aspernatur culpa voluptates, tempore error natus sunt dignissimos ullam commodi quam, sit corrupti est necessitatibus! Ex?</p>
+    <p className="description">
+      {description}
+    </p>
   </div>
 );
 
 export default StepItem;
+
+StepItem.propTypes = {
+  title: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
+  children: PropTypes.node.isRequired,
+};

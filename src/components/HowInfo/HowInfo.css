@@ -1,11 +1,19 @@
 .how-section{
-    margin-top: 12rem;
+    margin: 12rem 0px;
+}
+
+.divider{
+    width: 7.2rem;
+    height: 2px;
+    background: #535353;
+    margin: 0 auto; 
 }
 
 .how-title{
     font-weight: bold;
     font-size: 4.8rem;
     text-align: center;
+    margin-top: 2rem;
     margin-bottom: 0px;
 }
 
