@@ -15,7 +15,10 @@ const Navbar = () => (
         <li className="link">Contact</li>
       </Link>
       <button type="button" className="button">
-        Iniciar sesión
+        Sign Up
+      </button>
+      <button type="button" className="secondary-button">
+        Login
       </button>
     </ul>
   </nav>
