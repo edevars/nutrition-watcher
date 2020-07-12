@@ -1,0 +1,18 @@
+.how-section{
+    margin-top: 12rem;
+}
+
+.how-title{
+    font-weight: bold;
+    font-size: 4.8rem;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.steps-container {
+    display: flex;
+    flex-flow: row wrap;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-evenly;
+}
