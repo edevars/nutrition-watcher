@@ -16,11 +16,13 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",
-    "react-scroll": "^1.8.0"
+    "react-scroll": "^1.8.0",
+    "styled-components": "^5.1.1"
   },
   "devDependencies": {
     "@babel/core": "^7.10.4",
     "@babel/preset-react": "^7.10.4",
+    "babel-plugin-styled-components": "^1.10.7",
     "css-loader": "^3.6.0",
     "eslint": "^7.4.0",
     "eslint-config-airbnb": "^18.2.0",
