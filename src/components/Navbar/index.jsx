@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-scroll';
+import Button from '../../styles/Button';
 import './navbar.css';
 
 const Navbar = () => (
@@ -14,12 +15,10 @@ const Navbar = () => (
       <Link activeClass="active" to="contact" spy smooth duration={600}>
         <li className="link">Contact</li>
       </Link>
-      <button type="button" className="button">
-        Sign Up
-      </button>
-      <button type="button" className="secondary-button">
+      <Button type="button">Sign Up</Button>
+      <Button type="button" secondary>
         Login
-      </button>
+      </Button>
     </ul>
   </nav>
 );
