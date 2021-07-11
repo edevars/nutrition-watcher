@@ -1,21 +1,21 @@
 import React from 'react';
-import './Hero.css';
 import bowl from '../../images/bowl.png';
+import { HeroGrid, Title, ImageContainer } from './styles';
 
 const Hero = () => (
-  <section>
-    <div className="hero-grid">
+  <header>
+    <HeroGrid>
       <div className="title-container">
-        <h1>Nutrition Watcher</h1>
+        <Title>Nutrition Watcher</Title>
       </div>
-      <div className="image-container">
+      <ImageContainer>
         <div className="vector-slash" />
         <div className="isologo-container">
           <img src={bowl} alt="Green apple iamge" />
         </div>
-      </div>
-    </div>
-  </section>
+      </ImageContainer>
+    </HeroGrid>
+  </header>
 );
 
 export default Hero;

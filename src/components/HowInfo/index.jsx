@@ -1,12 +1,14 @@
 import React from 'react';
 import StepItem from '../StepItem';
-import './HowInfo.css';
+import {
+  HowWrapper, Divider, Title, StepsContainer,
+} from './styles';
 
 const HowInfo = () => (
-  <section className="how-section">
-    <div className="divider" />
-    <h2 className="how-title">How Works?</h2>
-    <div className="steps-container">
+  <HowWrapper>
+    <Divider />
+    <Title>How Works?</Title>
+    <StepsContainer>
       <StepItem
         title="1. Take your weight"
         description="Every morning when wake up you should take your weight."
@@ -25,8 +27,8 @@ const HowInfo = () => (
       >
         <i className="las la-poll" />
       </StepItem>
-    </div>
-  </section>
+    </StepsContainer>
+  </HowWrapper>
 );
 
 export default HowInfo;
